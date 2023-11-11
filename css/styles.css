@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+  color: #212529;
+  background-color: whitesmoke;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  background-color: #fe0016;
+  border: 1px solid black;
+}
+.navbar .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.navbar .link:hover {
+  color: rgb(244, 196, 5);
+  text-decoration-thickness: 25rem;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: whitesmoke;
+  border: 1px solid black;
+}
+
+.mainIndex .noticias {
+  height: 500px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainIndex .noticias .text {
+  color: black;
+  font-size: 50px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 100px;
+  row-gap: 50px;
+  justify-content: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-decoration: none;
+}
+.mainIndex .contenedor {
+  max-width: 700;
+  width: 100%;
+  padding: 45px 20px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+.mainIndex .contenedor .text {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.imagen {
+  width: 80%;
+  display: flex;
+  align-items: column;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imagen-consola {
+  width: 50%;
+  display: flex;
+  align-items: column;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #fe0016;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+footer div img {
+  width: 30px;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: 700S;
+  text-decoration: none;
+}
+
+hr {
+  margin: 1rem 0;
+  color: black;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 1;
+}
+
+.hr-noticia {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: bolder;
+}
+
+.h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 1;
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: bolder;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .text {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
